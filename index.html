@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet " href="css/styles.css" type="text/css"> 
+  <script src="js/scripts.js"></script>
+  <title>I Want To Vote Today</title>
+</head>
+<body>
+  <h1>I Want To Vote Today</h1>
+
+
+  <form>
+    <label for="ageInput">What's Your Age Today?</label>
+    <input id="ageInput" type="text" name="ageInput">
+    <button type="submit">Submit</button>
+  </form>
+  
+  <div id="over17" class="hidden">
+    <h2>Let's go vote!!!</h2>
+    <p>You're old enough to vote. Congratulations. It is not only a right, but a responsibility, to discharge your duties of enfranchisment.</p>
+  </div>
+
+  <div id="under18" class="hidden">
+    <h2>Ooh dang</h2>
+    <p>You aren't yet eligible to vote. But you will be before you know it, so it's not too early to start educating yourself about the political process. For more info, go <a href="https://www.archives.gov/milestone-documents/voting-rights-act"> here</a></p>
+  </div>
+
+</body>
+</html>
